@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "case_id": "b16-k9w4",
+  "stage": 0,
+  "frame_id": "b16-k9w4-00",
+  "frame_sha256": "956e7e2de8fd4d048c47d55cf171bff00501b4ca472ed36b41ee7026d428a748",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player_px": [
+    961,
+    531
+  ],
+  "player_error_px": 5,
+  "entrance_px": null,
+  "entrance_orientation": null,
+  "rooms": [
+    {
+      "id": "r01",
+      "center_px": [
+        968,
+        532
+      ],
+      "error_px": 20
+    }
+  ],
+  "connections": [],
+  "boundaries": [
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          887,
+          525
+        ],
+        [
+          912,
+          512
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall section southwest of the yellow marker."
+    },
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          912,
+          512
+        ],
+        [
+          925,
+          505
+        ]
+      ],
+      "status": "ambiguous_geometry",
+      "note": "Yellow doorway-like marker; traversability and adjoining room are not established."
+    },
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          925,
+          505
+        ],
+        [
+          967,
+          482
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall section northeast of the yellow marker."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          967,
+          482
+        ],
+        [
+          1006,
+          502
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall section northwest of the purple marker."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1006,
+          502
+        ],
+        [
+          1018,
+          509
+        ]
+      ],
+      "status": "ambiguous_geometry",
+      "note": "Purple doorway-like marker; its function and destination are not established."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1018,
+          509
+        ],
+        [
+          1056,
+          532
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall section southeast of the purple marker."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1056,
+          532
+        ],
+        [
+          1021,
+          551
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall section northeast of the yellow marker."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1021,
+          551
+        ],
+        [
+          1008,
+          558
+        ]
+      ],
+      "status": "ambiguous_geometry",
+      "note": "Yellow doorway-like marker; traversability and adjoining room are not established."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1008,
+          558
+        ],
+        [
+          984,
+          571
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall section southwest of the yellow marker."
+    }
+  ],
+  "dead_ends": [],
+  "uncertain_geometry": true,
+  "uncertainty_notes": [
+    "The bright blue automap marker overlaps a dimmer cyan symbol. The bright blue marker centre is estimated separately.",
+    "r01 denotes the identifiable central three-sided mapped space. Its southwest side opens into a larger visible space without a distinct closing boundary, so its full extent and exact centre are uncertain.",
+    "The yellow and purple wall markers are visible, but the image alone does not establish their meanings, traversability or destinations.",
+    "Additional wall runs extend northwest and southeast from the central space; their distant ends and adjacent room outlines are incomplete or obscured. No continuation, terminal wall or separate room centre is inferred.",
+    "The stairway in the scene is visible, but its correspondence to an automap room centre and entrance orientation cannot be established reliably.",
+    "No complete exit set is visible for any mapped room; no dead end or inter-room connection is confirmed."
+  ],
+  "elapsed_minutes": 1
+}

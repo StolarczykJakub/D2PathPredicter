@@ -1,0 +1,1158 @@
+{
+  "protocol_version": 2,
+  "packet_id": "w3j5n",
+  "frame_sha256": "5dd5212bae9603ede0af3b079dd0d188979a102f12368ff2ddab141f862ddef5",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player": {
+    "status": "OBSERVED",
+    "px": [
+      962,
+      530
+    ],
+    "error_px": 5,
+    "note": "Centre of blue outlined cross-like automap marker; offset dark outline and white background complicate centre."
+  },
+  "walls": [
+    {
+      "id": "s1",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          879,
+          477
+        ],
+        [
+          1006,
+          541
+        ]
+      ],
+      "error_px": 5,
+      "status": "CONTINUOUS",
+      "note": "Descending-right perimeter trace crossing bright background."
+    },
+    {
+      "id": "s2",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          944,
+          574
+        ],
+        [
+          1006,
+          541
+        ]
+      ],
+      "error_px": 5,
+      "status": "CONTINUOUS",
+      "note": "Rising-right perimeter trace; yellow mark overlays face."
+    },
+    {
+      "id": "s3",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          879,
+          606
+        ],
+        [
+          944,
+          574
+        ]
+      ],
+      "error_px": 5,
+      "status": "CONTINUOUS",
+      "note": "Rising-right perimeter trace between junctions; yellow overlay."
+    },
+    {
+      "id": "s4",
+      "room_id": null,
+      "segment_px": [
+        [
+          1006,
+          541
+        ],
+        [
+          1070,
+          573
+        ]
+      ],
+      "error_px": 5,
+      "status": "CONTINUOUS",
+      "note": "Outer bend beside incomplete narrow area r8, not a supported room boundary."
+    },
+    {
+      "id": "s5",
+      "room_id": null,
+      "segment_px": [
+        [
+          813,
+          510
+        ],
+        [
+          944,
+          574
+        ]
+      ],
+      "error_px": 6,
+      "status": "CONTINUOUS",
+      "note": "Internal straight wall spur with a free end; no independent room footprint along it."
+    },
+    {
+      "id": "s6",
+      "room_id": null,
+      "segment_px": [
+        [
+          879,
+          670
+        ],
+        [
+          1070,
+          573
+        ]
+      ],
+      "error_px": 5,
+      "status": "CONTINUOUS",
+      "note": "Long straight outer trace through an intermediate post; bounds r8, not an identified room."
+    },
+    {
+      "id": "s7",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          895,
+          469
+        ],
+        [
+          879,
+          477
+        ]
+      ],
+      "error_px": 8,
+      "status": "AMBIGUOUS",
+      "note": "Short offset at perimeter corner; post overlap makes the trace extent ambiguous."
+    },
+    {
+      "id": "s8",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          813,
+          573
+        ],
+        [
+          879,
+          606
+        ]
+      ],
+      "error_px": 5,
+      "status": "CONTINUOUS",
+      "note": "Shared visible boundary of r1 and r4; assigned to r1 for the single-valued room_id."
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        715,
+        529
+      ],
+      "segment_px": [
+        [
+          710,
+          526
+        ],
+        [
+          720,
+          532
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m2",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        589,
+        562
+      ],
+      "segment_px": [
+        [
+          584,
+          565
+        ],
+        [
+          594,
+          559
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m3",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        973,
+        562
+      ],
+      "segment_px": [
+        [
+          968,
+          565
+        ],
+        [
+          978,
+          559
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m4",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        651,
+        561
+      ],
+      "segment_px": [
+        [
+          646,
+          558
+        ],
+        [
+          656,
+          564
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m5",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        909,
+        594
+      ],
+      "segment_px": [
+        [
+          904,
+          597
+        ],
+        [
+          914,
+          591
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m6",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        779,
+        625
+      ],
+      "segment_px": [
+        [
+          774,
+          622
+        ],
+        [
+          784,
+          628
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m7",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        315,
+        649
+      ],
+      "segment_px": [
+        [
+          310,
+          646
+        ],
+        [
+          320,
+          652
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m8",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        653,
+        658
+      ],
+      "segment_px": [
+        [
+          648,
+          661
+        ],
+        [
+          658,
+          655
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m9",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        781,
+        658
+      ],
+      "segment_px": [
+        [
+          776,
+          661
+        ],
+        [
+          786,
+          655
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m10",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        715,
+        657
+      ],
+      "segment_px": [
+        [
+          710,
+          654
+        ],
+        [
+          720,
+          660
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m11",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        845,
+        690
+      ],
+      "segment_px": [
+        [
+          840,
+          693
+        ],
+        [
+          850,
+          687
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m12",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        779,
+        689
+      ],
+      "segment_px": [
+        [
+          774,
+          686
+        ],
+        [
+          784,
+          692
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m13",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        1099,
+        721
+      ],
+      "segment_px": [
+        [
+          1094,
+          718
+        ],
+        [
+          1104,
+          724
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m14",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        585,
+        721
+      ],
+      "segment_px": [
+        [
+          580,
+          718
+        ],
+        [
+          590,
+          724
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face at visible trace end; continuation not visible."
+    },
+    {
+      "id": "m15",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        1309,
+        730
+      ],
+      "segment_px": [
+        [
+          1304,
+          733
+        ],
+        [
+          1314,
+          727
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m16",
+      "status": "OBSERVED",
+      "appearance": "bright yellow upright bar",
+      "center_px": [
+        1405,
+        778
+      ],
+      "segment_px": [
+        [
+          1400,
+          781
+        ],
+        [
+          1410,
+          775
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    },
+    {
+      "id": "m17",
+      "status": "OBSERVED",
+      "appearance": "purple-magenta upright bar",
+      "center_px": [
+        1403,
+        726
+      ],
+      "segment_px": [
+        [
+          1398,
+          723
+        ],
+        [
+          1408,
+          729
+        ]
+      ],
+      "error_px": 4,
+      "note": "Colored face measured along projected wall direction."
+    }
+  ],
+  "search_complete": {
+    "walls": true,
+    "markers": true
+  },
+  "elapsed_minutes": 0.87,
+  "time_limit_reached": false,
+  "notes": [
+    "Inspected fresh source image with native-pixel grids and magnified crops; scene effects, black background and wall overlay limit interpretation. No confirmed passage or room-to-room connection.",
+    "Straight trace endpoints are at approximate band centres; a junction with an adjoining trace is a sample boundary, intermediate collinear posts are not. Midpoint selection used the specified fixed point; short offset at central upper corner remains ambiguous.",
+    "Region centres for incomplete outlines locate visible candidate portions rather than reconstructed full footprints. The semantic candidate survey does not infer unseen boundaries.",
+    "No entrance-related location or orientation is supported independently by this frame."
+  ],
+  "entrance": {
+    "staircase_scene": {
+      "status": "UNKNOWN",
+      "px": null,
+      "error_px": null,
+      "note": "A dark rectangular architectural opening is behind the figure; intense white and blue effects obscure the floor threshold. No recognizable stair threshold can be localized confidently."
+    },
+    "automap_glyph": {
+      "status": "UNKNOWN",
+      "px": null,
+      "error_px": null,
+      "note": "Colored bars and a blue cross-like marker are visible, but the frame does not establish a distinct entrance symbol."
+    },
+    "arrival_room_center": {
+      "status": "UNKNOWN",
+      "px": null,
+      "error_px": null,
+      "note": "There are bounded candidate footprints, but none is visibly associated with a recognizable staircase entrance."
+    },
+    "player_arrival": {
+      "status": "UNKNOWN",
+      "px": null,
+      "error_px": null,
+      "note": "The current blue automap marker is visible; there is no evidence that this is the arrival position."
+    }
+  },
+  "orientation": {
+    "status": "UNKNOWN",
+    "direction": null,
+    "segment_px": null,
+    "error_px": null,
+    "note": "No visible centreline can be associated with an identified staircase throat; nearby wall angles alone are insufficient."
+  },
+  "regions": [
+    {
+      "id": "r1",
+      "class": "ROOM",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          749,
+          506
+        ],
+        "error_px": 18,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Large irregular central footprint bounded by visible wall band around its exterior, with visible tiled floor. Interior wall spur ends within footprint; colored overlays do not establish passage. Centre is approximate area centre."
+    },
+    {
+      "id": "r2",
+      "class": "ROOM",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          686,
+          540
+        ],
+        "error_px": 7,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Small four-sided footprint immediately below left part of r1; visible floor within outline and colored wall bars."
+    },
+    {
+      "id": "r3",
+      "class": "ROOM",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          751,
+          573
+        ],
+        "error_px": 7,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Four-sided footprint immediately southeast of r2; tiled floor visible within outline."
+    },
+    {
+      "id": "r4",
+      "class": "ROOM",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          815,
+          606
+        ],
+        "error_px": 7,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Four-sided footprint immediately southeast of r3; tiled floor visible within outline; color on one edge does not establish a passage."
+    },
+    {
+      "id": "r5",
+      "class": "ROOM",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          719,
+          621
+        ],
+        "error_px": 10,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Elongated bounded footprint below r2 and r3 with visible tiled floor, colored wall marks on several sides."
+    },
+    {
+      "id": "r6",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          405,
+          619
+        ],
+        "error_px": 12,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Elongated left enclosure with a small jog along upper side, colored wall bar and dark interior. Room versus architectural enclosure cannot be distinguished."
+    },
+    {
+      "id": "r7",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          557,
+          670
+        ],
+        "error_px": 9,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "COMPLETE",
+      "note": "Small lower-left quadrilateral with black interior; no visible floor or confirmed opening to classify it as a room."
+    },
+    {
+      "id": "r8",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          946,
+          621
+        ],
+        "error_px": 16,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "INCOMPLETE",
+      "note": "Long narrow central area between near-parallel wall runs; one end is visibly bounded, other end is not fully delineated. Could be corridor or other footprint."
+    },
+    {
+      "id": "r9",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          1268,
+          686
+        ],
+        "error_px": 17,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "INCOMPLETE",
+      "note": "Right-hand near-enclosure with dark interior, offset upper edge and free wall end on lower-left; not enough evidence for room classification."
+    },
+    {
+      "id": "r10",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          1403,
+          756
+        ],
+        "error_px": 17,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "INCOMPLETE",
+      "note": "Rightmost candidate between two roughly parallel wall runs with colored bars; open-ended outline and black interior."
+    },
+    {
+      "id": "r11",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          319,
+          688
+        ],
+        "error_px": 26,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "INCOMPLETE",
+      "note": "Far-left candidate below r6 bounded on two sides with visible terminal wall ends; extent incomplete. Centre denotes visible candidate area only."
+    },
+    {
+      "id": "r12",
+      "class": "UNRESOLVED",
+      "center": {
+        "status": "OBSERVED",
+        "px": [
+          506,
+          713
+        ],
+        "error_px": 22,
+        "note": "Centre of visible footprint or localizable outline, not a claim of access."
+      },
+      "perimeter": "INCOMPLETE",
+      "note": "Lower-left candidate beneath r7 between visible wall stubs; outer boundary unshown. Centre denotes localizable portion only."
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "marker_id": "m1",
+      "room_id": "r2",
+      "segment_px": [
+        [
+          710,
+          526
+        ],
+        [
+          720,
+          532
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o2",
+      "marker_id": "m2",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          584,
+          565
+        ],
+        [
+          594,
+          559
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o3",
+      "marker_id": "m3",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          968,
+          565
+        ],
+        [
+          978,
+          559
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o4",
+      "marker_id": "m4",
+      "room_id": "r2",
+      "segment_px": [
+        [
+          646,
+          558
+        ],
+        [
+          656,
+          564
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o5",
+      "marker_id": "m5",
+      "room_id": "r1",
+      "segment_px": [
+        [
+          904,
+          597
+        ],
+        [
+          914,
+          591
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o6",
+      "marker_id": "m6",
+      "room_id": "r4",
+      "segment_px": [
+        [
+          774,
+          622
+        ],
+        [
+          784,
+          628
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o7",
+      "marker_id": "m7",
+      "room_id": null,
+      "segment_px": [
+        [
+          310,
+          646
+        ],
+        [
+          320,
+          652
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o8",
+      "marker_id": "m8",
+      "room_id": "r5",
+      "segment_px": [
+        [
+          648,
+          661
+        ],
+        [
+          658,
+          655
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o9",
+      "marker_id": "m9",
+      "room_id": "r5",
+      "segment_px": [
+        [
+          776,
+          661
+        ],
+        [
+          786,
+          655
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o10",
+      "marker_id": "m10",
+      "room_id": "r5",
+      "segment_px": [
+        [
+          710,
+          654
+        ],
+        [
+          720,
+          660
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o11",
+      "marker_id": "m11",
+      "room_id": null,
+      "segment_px": [
+        [
+          840,
+          693
+        ],
+        [
+          850,
+          687
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o12",
+      "marker_id": "m12",
+      "room_id": null,
+      "segment_px": [
+        [
+          774,
+          686
+        ],
+        [
+          784,
+          692
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o13",
+      "marker_id": "m13",
+      "room_id": null,
+      "segment_px": [
+        [
+          1094,
+          718
+        ],
+        [
+          1104,
+          724
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o14",
+      "marker_id": "m14",
+      "room_id": null,
+      "segment_px": [
+        [
+          580,
+          718
+        ],
+        [
+          590,
+          724
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "UNKNOWN",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored bar at exposed trace end; boundary beyond it and traversability cannot be assessed."
+    },
+    {
+      "id": "o15",
+      "marker_id": "m15",
+      "room_id": null,
+      "segment_px": [
+        [
+          1304,
+          733
+        ],
+        [
+          1314,
+          727
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o16",
+      "marker_id": "m16",
+      "room_id": null,
+      "segment_px": [
+        [
+          1400,
+          781
+        ],
+        [
+          1410,
+          775
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o17",
+      "marker_id": "m17",
+      "room_id": null,
+      "segment_px": [
+        [
+          1398,
+          723
+        ],
+        [
+          1408,
+          729
+        ]
+      ],
+      "error_px": 5,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Colored face covers the wall band; no coherent open gap or visible floor continuity through a threshold can be established."
+    },
+    {
+      "id": "o18",
+      "marker_id": null,
+      "room_id": null,
+      "segment_px": null,
+      "error_px": null,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Two nearby free ends of differently oriented traces; missing interval might be an unshown corner rather than a passage. Approximate candidate vicinity [808, 696] to [830, 696]; no defensible opening segment."
+    },
+    {
+      "id": "o19",
+      "marker_id": null,
+      "room_id": null,
+      "segment_px": null,
+      "error_px": null,
+      "geometry": "AMBIGUOUS",
+      "passage": "UNKNOWN",
+      "destination_room_id": null,
+      "frontier_direction": null,
+      "note": "Free wall end and offset upper trace near incomplete right-hand enclosure; no coherent passage threshold established. Approximate candidate vicinity [1197, 697] to [1260, 670]; no defensible opening segment."
+    }
+  ],
+  "connections": [],
+  "terminal_assessments": [
+    {
+      "room_id": "r1",
+      "status": "UNKNOWN",
+      "departure_opening_ids": [],
+      "note": "Visible bounded footprint, but no confirmed departure and colored wall marks leave potential exits unresolved; terminal status not established."
+    },
+    {
+      "room_id": "r2",
+      "status": "UNKNOWN",
+      "departure_opening_ids": [],
+      "note": "Visible bounded footprint, but no confirmed departure and colored wall marks leave potential exits unresolved; terminal status not established."
+    },
+    {
+      "room_id": "r3",
+      "status": "UNKNOWN",
+      "departure_opening_ids": [],
+      "note": "Visible bounded footprint, but no confirmed departure and colored wall marks leave potential exits unresolved; terminal status not established."
+    },
+    {
+      "room_id": "r4",
+      "status": "UNKNOWN",
+      "departure_opening_ids": [],
+      "note": "Visible bounded footprint, but no confirmed departure and colored wall marks leave potential exits unresolved; terminal status not established."
+    },
+    {
+      "room_id": "r5",
+      "status": "UNKNOWN",
+      "departure_opening_ids": [],
+      "note": "Visible bounded footprint, but no confirmed departure and colored wall marks leave potential exits unresolved; terminal status not established."
+    }
+  ]
+}

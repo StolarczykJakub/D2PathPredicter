@@ -1,0 +1,224 @@
+{
+  "protocol_version": 2,
+  "packet_id": "h9v2c",
+  "frame_sha256": "956e7e2de8fd4d048c47d55cf171bff00501b4ca472ed36b41ee7026d428a748",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player": {
+    "status": "OBSERVED",
+    "px": [
+      962,
+      531
+    ],
+    "error_px": 5,
+    "note": "Bright blue outlined cross; overlaps a distinct, dimmer teal outline on its lower-right side. Centre estimated from bright blue outline."
+  },
+  "walls": [
+    {
+      "id": "w1",
+      "segment_px": [
+        [
+          984,
+          573
+        ],
+        [
+          1010,
+          559
+        ]
+      ],
+      "error_px": 6,
+      "status": "INTERRUPTED",
+      "note": "Visible diagonal from lower-right corner to yellow insert; wall pixels end at insert."
+    },
+    {
+      "id": "w2",
+      "segment_px": [
+        [
+          926,
+          506
+        ],
+        [
+          968,
+          483
+        ]
+      ],
+      "error_px": 6,
+      "status": "INTERRUPTED",
+      "note": "Visible rising diagonal from yellow insert to upper junction; a post overlaps this trace near the junction."
+    },
+    {
+      "id": "w3",
+      "segment_px": [
+        [
+          968,
+          483
+        ],
+        [
+          1008,
+          503
+        ]
+      ],
+      "error_px": 6,
+      "status": "INTERRUPTED",
+      "note": "Visible falling diagonal from upper corner to magenta insert."
+    },
+    {
+      "id": "w4",
+      "segment_px": [
+        [
+          888,
+          524
+        ],
+        [
+          914,
+          510
+        ]
+      ],
+      "error_px": 6,
+      "status": "INTERRUPTED",
+      "note": "Visible rising diagonal from left corner to yellow insert."
+    },
+    {
+      "id": "w5",
+      "segment_px": [
+        [
+          1021,
+          552
+        ],
+        [
+          1057,
+          534
+        ]
+      ],
+      "error_px": 8,
+      "status": "INTERRUPTED",
+      "note": "Visible rising diagonal from yellow insert to right junction; junction post obscures exact end."
+    },
+    {
+      "id": "w6",
+      "segment_px": [
+        [
+          1018,
+          510
+        ],
+        [
+          1057,
+          532
+        ]
+      ],
+      "error_px": 8,
+      "status": "INTERRUPTED",
+      "note": "Visible falling diagonal from magenta insert to right junction; exact end blends with junction post."
+    },
+    {
+      "id": "w7",
+      "segment_px": [
+        [
+          872,
+          453
+        ],
+        [
+          950,
+          493
+        ]
+      ],
+      "error_px": 8,
+      "status": "CONTINUOUS",
+      "note": "Visible falling diagonal from isolated upper-left post to junction with rising trace."
+    },
+    {
+      "id": "w8",
+      "segment_px": [
+        [
+          984,
+          573
+        ],
+        [
+          1061,
+          619
+        ]
+      ],
+      "error_px": 8,
+      "status": "CONTINUOUS",
+      "note": "Visible falling diagonal from lower-right corner to fading free end; mist and scene texture reduce contrast."
+    }
+  ],
+  "markers": [
+    {
+      "id": "g1",
+      "status": "OBSERVED",
+      "appearance": "yellow rising slanted bar",
+      "center_px": [
+        919,
+        511
+      ],
+      "segment_px": [
+        [
+          914,
+          514
+        ],
+        [
+          924,
+          508
+        ]
+      ],
+      "error_px": 3,
+      "note": "Measured coloured panel itself along diagonal wall axis."
+    },
+    {
+      "id": "g2",
+      "status": "OBSERVED",
+      "appearance": "magenta falling slanted bar",
+      "center_px": [
+        1013,
+        507
+      ],
+      "segment_px": [
+        [
+          1008,
+          504
+        ],
+        [
+          1017,
+          510
+        ]
+      ],
+      "error_px": 3,
+      "note": "Measured magenta panel itself, excluding adjacent dark wall."
+    },
+    {
+      "id": "g3",
+      "status": "OBSERVED",
+      "appearance": "yellow rising slanted bar",
+      "center_px": [
+        1015,
+        559
+      ],
+      "segment_px": [
+        [
+          1010,
+          562
+        ],
+        [
+          1020,
+          556
+        ]
+      ],
+      "error_px": 3,
+      "note": "Measured coloured panel itself along diagonal wall axis."
+    }
+  ],
+  "search_complete": {
+    "walls": true,
+    "markers": true
+  },
+  "elapsed_minutes": 0.87,
+  "time_limit_reached": false,
+  "notes": [
+    "Wall sample ranked by distance of visible fragment midpoints to fixed (960,540). Coloured panels interrupt visibility of the ordinary wall trace; no trace was extrapolated through them. Posts were treated as part of a straight trace where its alignment remained visible.",
+    "Only three distinct wall-associated saturated panels were identified in the visible automap; cross outlines, sparkles, scene lighting and UI were excluded.",
+    "Dark areas, mist and overlap with characters restrict observable geometry; completeness refers only to the visible automap. Wall endpoints refer to the mid-height trace, not the top of posts."
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "case_id": "b16-k9w4",
+  "stage": 2,
+  "frame_id": "b16-k9w4-02",
+  "frame_sha256": "a69c5458fcde78736e99b5f033396e7c4ef6004d88cf0025e82cda07b050b988",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player_px": [
+    961,
+    531
+  ],
+  "player_error_px": 3,
+  "entrance_px": null,
+  "entrance_orientation": null,
+  "rooms": [
+    {
+      "id": "r01",
+      "center_px": [
+        1440,
+        480
+      ],
+      "error_px": 5
+    },
+    {
+      "id": "r02",
+      "center_px": [
+        1536,
+        464
+      ],
+      "error_px": 5
+    }
+  ],
+  "connections": [
+    [
+      "r01",
+      "r02"
+    ]
+  ],
+  "boundaries": [
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          1344,
+          464
+        ],
+        [
+          1408,
+          430
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous wall on the visible automap."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1408,
+          430
+        ],
+        [
+          1472,
+          464
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous wall on the visible automap."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1472,
+          464
+        ],
+        [
+          1536,
+          496
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow doorway marker on shared boundary with r02."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1536,
+          496
+        ],
+        [
+          1472,
+          530
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow doorway marker; destination room centre not confirmed."
+    },
+    {
+      "room": "r01",
+      "direction": "SW",
+      "segment_px": [
+        [
+          1472,
+          530
+        ],
+        [
+          1408,
+          496
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow doorway marker; destination room centre not confirmed."
+    },
+    {
+      "room": "r01",
+      "direction": "SW",
+      "segment_px": [
+        [
+          1408,
+          496
+        ],
+        [
+          1344,
+          464
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous wall on the visible automap."
+    },
+    {
+      "room": "r02",
+      "direction": "NW",
+      "segment_px": [
+        [
+          1472,
+          464
+        ],
+        [
+          1536,
+          430
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous wall on the visible automap."
+    },
+    {
+      "room": "r02",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1536,
+          430
+        ],
+        [
+          1600,
+          464
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous wall on the visible automap."
+    },
+    {
+      "room": "r02",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1600,
+          464
+        ],
+        [
+          1536,
+          496
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous wall on the visible automap."
+    },
+    {
+      "room": "r02",
+      "direction": "SW",
+      "segment_px": [
+        [
+          1536,
+          496
+        ],
+        [
+          1472,
+          464
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow doorway marker on shared boundary with r01."
+    }
+  ],
+  "dead_ends": [
+    "r02"
+  ],
+  "uncertain_geometry": true,
+  "uncertainty_notes": [
+    "The arrival room is not identifiable from this frame; its centre and orientation are unknown.",
+    "The player marker is visible, but the surrounding room outline is incomplete or interrupted, so its room centre cannot be reliably established.",
+    "Several additional yellow doorway markers and wall segments are visible outside r01 and r02, but incomplete outlines prevent reliable identification of destination room centres and room-to-room links.",
+    "The enclosed diamond-shaped outlines near [1280,530] and [1472,432] have no visible doorway markers; their classification as rooms rather than enclosed architectural features is uncertain.",
+    "Geometry toward the right image edge and at interrupted wall ends is incomplete; continuation, connectivity and dead-end status cannot be determined.",
+    "The r02 dead-end classification is limited to its fully visible automap perimeter, which contains one marked doorway. No dead-end classification is made for incomplete outlines.",
+    "Room IDs are local to this observation; no earlier-stage annotation was used."
+  ],
+  "elapsed_minutes": 2.5
+}

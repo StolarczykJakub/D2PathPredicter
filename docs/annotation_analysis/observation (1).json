@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "case_id": "b16-k9w4",
+  "stage": 1,
+  "frame_id": "b16-k9w4-01",
+  "frame_sha256": "a84c5eb10d15de1338d392cdceba48eac7d798a75f6761a7224563b1e3bfda4b",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player_px": [
+    959,
+    531
+  ],
+  "player_error_px": 5,
+  "entrance_px": null,
+  "entrance_orientation": null,
+  "rooms": [
+    {
+      "id": "r01",
+      "center_px": [
+        1230,
+        597
+      ],
+      "error_px": 15
+    }
+  ],
+  "connections": [],
+  "boundaries": [
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          1125,
+          580
+        ],
+        [
+          1205,
+          540
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall outline."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1205,
+          540
+        ],
+        [
+          1267,
+          572
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall up to the small offset."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          1255,
+          582
+        ],
+        [
+          1331,
+          620
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall after the small offset."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1331,
+          620
+        ],
+        [
+          1302,
+          635
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible uncolored wall section."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1302,
+          635
+        ],
+        [
+          1291,
+          641
+        ]
+      ],
+      "status": "ambiguous_geometry",
+      "note": "Bright yellow section in the wall; traversability is not established by this frame."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          1291,
+          641
+        ],
+        [
+          1267,
+          650
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible uncolored wall section."
+    },
+    {
+      "room": "r01",
+      "direction": "SW",
+      "segment_px": [
+        [
+          1267,
+          650
+        ],
+        [
+          1186,
+          610
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall ends at the northwest endpoint."
+    },
+    {
+      "room": "r01",
+      "direction": "SW",
+      "segment_px": [
+        [
+          1186,
+          610
+        ],
+        [
+          1125,
+          580
+        ]
+      ],
+      "status": "ambiguous_geometry",
+      "note": "Interval between visible outline endpoints; no continuous wall is drawn and its passage status cannot be established."
+    }
+  ],
+  "dead_ends": [],
+  "uncertain_geometry": true,
+  "uncertainty_notes": [
+    "r01 identifies the central recognizable wall-bounded region; its southwest outline is incomplete, and its exact center and full extent are uncertain.",
+    "The arrival room cannot be identified from this single frame; entrance position and orientation are unreadable.",
+    "The blue player marker is visible, but bright effects and overlapping scene detail obscure portions of the nearby outline.",
+    "The smaller outline near (930,580) merges into a longer wall-bounded region; it cannot reliably be separated as a distinct room.",
+    "Lower and right-hand wall fragments have open or truncated outlines. Their full extent, exits and separate room centers cannot be determined.",
+    "Yellow and magenta wall markings are visible, but their function and passage status are not established by the supplied instructions or the image alone.",
+    "No connection between two confirmed room centers or fully bounded single-exit room is established. Empty connections and dead_ends lists represent lack of confirmation, not absence."
+  ],
+  "elapsed_minutes": 0.76
+}

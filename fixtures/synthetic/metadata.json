@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "dataset_id": "synthetic-contract-v1",
+  "kind": "synthetic",
+  "scenario": {
+    "game": "D2R",
+    "area": "Catacombs2",
+    "difficulty": "Normal",
+    "entry": "Catacombs1"
+  },
+  "capture": {
+    "build": "synthetic",
+    "mode": "synthetic",
+    "automap_mode": "synthetic",
+    "graphics": "synthetic",
+    "resolution": [
+      800,
+      600
+    ],
+    "zoom": "synthetic fixed scale"
+  },
+  "layouts": [
+    {
+      "layout_id": "dev-01",
+      "group_id": "dev-01",
+      "split": "development",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "dev-02",
+      "group_id": "dev-02",
+      "split": "development",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "dev-03",
+      "group_id": "dev-03",
+      "split": "development",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "dev-04",
+      "group_id": "dev-04",
+      "split": "development",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "dev-05",
+      "group_id": "dev-05",
+      "split": "development",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "dev-06",
+      "group_id": "dev-06",
+      "split": "development",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "audit-a",
+      "group_id": "audit-a",
+      "split": "evaluation",
+      "recording": "Phase 0.5 audit counterexample"
+    },
+    {
+      "layout_id": "audit-b",
+      "group_id": "audit-b",
+      "split": "evaluation",
+      "recording": "Phase 0.5 audit counterexample"
+    },
+    {
+      "layout_id": "held-c",
+      "group_id": "held-c",
+      "split": "evaluation",
+      "recording": "hand-authored synthetic contract case"
+    },
+    {
+      "layout_id": "held-d",
+      "group_id": "held-d",
+      "split": "evaluation",
+      "recording": "hand-authored synthetic contract case"
+    }
+  ]
+}

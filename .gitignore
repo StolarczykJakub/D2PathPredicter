@@ -1,0 +1,8 @@
+/local-data/
+*.ds1
+*.dt1
+*.mpq
+*.d2s
+bin/
+obj/
+__pycache__/

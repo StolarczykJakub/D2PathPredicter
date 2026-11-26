@@ -1,0 +1,727 @@
+{
+  "schema_version": 1,
+  "case_id": "b16-k9w4",
+  "stage": 3,
+  "frame_id": "b16-k9w4-03",
+  "frame_sha256": "5dd5212bae9603ede0af3b079dd0d188979a102f12368ff2ddab141f862ddef5",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "player_px": [
+    958,
+    530
+  ],
+  "player_error_px": 8,
+  "entrance_px": null,
+  "entrance_orientation": null,
+  "rooms": [
+    {
+      "id": "r01",
+      "center_px": [
+        397,
+        619
+      ],
+      "error_px": 7
+    },
+    {
+      "id": "r02",
+      "center_px": [
+        770,
+        516
+      ],
+      "error_px": 15
+    },
+    {
+      "id": "r03",
+      "center_px": [
+        686,
+        540
+      ],
+      "error_px": 5
+    },
+    {
+      "id": "r04",
+      "center_px": [
+        750,
+        573
+      ],
+      "error_px": 5
+    },
+    {
+      "id": "r05",
+      "center_px": [
+        814,
+        605
+      ],
+      "error_px": 5
+    },
+    {
+      "id": "r06",
+      "center_px": [
+        718,
+        622
+      ],
+      "error_px": 5
+    },
+    {
+      "id": "r07",
+      "center_px": [
+        557,
+        670
+      ],
+      "error_px": 5
+    }
+  ],
+  "connections": [
+    [
+      "r02",
+      "r03"
+    ],
+    [
+      "r05",
+      "r06"
+    ]
+  ],
+  "boundaries": [
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          285,
+          630
+        ],
+        [
+          350,
+          598
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r01",
+      "direction": "NW",
+      "segment_px": [
+        [
+          365,
+          606
+        ],
+        [
+          445,
+          567
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall after small offset."
+    },
+    {
+      "room": "r01",
+      "direction": "NE",
+      "segment_px": [
+        [
+          445,
+          567
+        ],
+        [
+          508,
+          600
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r01",
+      "direction": "SE",
+      "segment_px": [
+        [
+          508,
+          600
+        ],
+        [
+          365,
+          670
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r01",
+      "direction": "SW",
+      "segment_px": [
+        [
+          307,
+          641
+        ],
+        [
+          324,
+          650
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker; adjacent region has incomplete outline."
+    },
+    {
+      "room": "r02",
+      "direction": "SW",
+      "segment_px": [
+        [
+          493,
+          540
+        ],
+        [
+          555,
+          574
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r02",
+      "direction": "SE",
+      "segment_px": [
+        [
+          581,
+          561
+        ],
+        [
+          599,
+          552
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker; adjacent room centre not confirmed."
+    },
+    {
+      "room": "r02",
+      "direction": "NW",
+      "segment_px": [
+        [
+          493,
+          540
+        ],
+        [
+          622,
+          475
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r02",
+      "direction": "NW",
+      "segment_px": [
+        [
+          606,
+          468
+        ],
+        [
+          670,
+          435
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r02",
+      "direction": "NE",
+      "segment_px": [
+        [
+          670,
+          435
+        ],
+        [
+          750,
+          478
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r02",
+      "direction": "NW",
+      "segment_px": [
+        [
+          750,
+          478
+        ],
+        [
+          830,
+          435
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r02",
+      "direction": "NE",
+      "segment_px": [
+        [
+          830,
+          435
+        ],
+        [
+          894,
+          468
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible wall before offset."
+    },
+    {
+      "room": "r02",
+      "direction": "NE",
+      "segment_px": [
+        [
+          882,
+          478
+        ],
+        [
+          1007,
+          541
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Visible outer wall; nearby bright scene effect and blue marker."
+    },
+    {
+      "room": "r02",
+      "direction": "SE",
+      "segment_px": [
+        [
+          967,
+          562
+        ],
+        [
+          981,
+          554
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker facing elongated partially outlined region."
+    },
+    {
+      "room": "r02",
+      "direction": "SE",
+      "segment_px": [
+        [
+          902,
+          594
+        ],
+        [
+          917,
+          586
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker facing elongated partially outlined region."
+    },
+    {
+      "room": "r02",
+      "direction": "SW",
+      "segment_px": [
+        [
+          708,
+          519
+        ],
+        [
+          725,
+          528
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker on shared boundary with r03."
+    },
+    {
+      "room": "r02",
+      "direction": "S",
+      "segment_px": [
+        [
+          814,
+          510
+        ],
+        [
+          942,
+          574
+        ]
+      ],
+      "status": "ambiguous_geometry",
+      "note": "Visible interior wall spur; its free end does not establish a separate closed room."
+    },
+    {
+      "room": "r03",
+      "direction": "NW",
+      "segment_px": [
+        [
+          622,
+          540
+        ],
+        [
+          686,
+          508
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r03",
+      "direction": "NE",
+      "segment_px": [
+        [
+          708,
+          519
+        ],
+        [
+          725,
+          528
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker to r02."
+    },
+    {
+      "room": "r03",
+      "direction": "SE",
+      "segment_px": [
+        [
+          750,
+          540
+        ],
+        [
+          686,
+          573
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible shared wall with r04."
+    },
+    {
+      "room": "r03",
+      "direction": "SW",
+      "segment_px": [
+        [
+          642,
+          550
+        ],
+        [
+          659,
+          559
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker; adjacent region not completely outlined."
+    },
+    {
+      "room": "r04",
+      "direction": "NW",
+      "segment_px": [
+        [
+          686,
+          573
+        ],
+        [
+          750,
+          540
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible shared wall with r03."
+    },
+    {
+      "room": "r04",
+      "direction": "NE",
+      "segment_px": [
+        [
+          750,
+          540
+        ],
+        [
+          814,
+          573
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r04",
+      "direction": "SE",
+      "segment_px": [
+        [
+          814,
+          573
+        ],
+        [
+          750,
+          605
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible shared wall with r05."
+    },
+    {
+      "room": "r04",
+      "direction": "SW",
+      "segment_px": [
+        [
+          750,
+          605
+        ],
+        [
+          686,
+          573
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible shared wall with r06."
+    },
+    {
+      "room": "r05",
+      "direction": "NW",
+      "segment_px": [
+        [
+          750,
+          605
+        ],
+        [
+          814,
+          573
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible shared wall with r04."
+    },
+    {
+      "room": "r05",
+      "direction": "NE",
+      "segment_px": [
+        [
+          814,
+          573
+        ],
+        [
+          878,
+          605
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r05",
+      "direction": "SE",
+      "segment_px": [
+        [
+          878,
+          605
+        ],
+        [
+          814,
+          638
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r05",
+      "direction": "SW",
+      "segment_px": [
+        [
+          771,
+          616
+        ],
+        [
+          789,
+          625
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker to r06."
+    },
+    {
+      "room": "r06",
+      "direction": "NW",
+      "segment_px": [
+        [
+          622,
+          605
+        ],
+        [
+          686,
+          573
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r06",
+      "direction": "NE",
+      "segment_px": [
+        [
+          686,
+          573
+        ],
+        [
+          750,
+          605
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible shared wall with r04."
+    },
+    {
+      "room": "r06",
+      "direction": "NE",
+      "segment_px": [
+        [
+          771,
+          616
+        ],
+        [
+          789,
+          625
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker to r05."
+    },
+    {
+      "room": "r06",
+      "direction": "SE",
+      "segment_px": [
+        [
+          772,
+          660
+        ],
+        [
+          788,
+          652
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker; adjacent elongated region lacks a confirmed centre."
+    },
+    {
+      "room": "r06",
+      "direction": "SW",
+      "segment_px": [
+        [
+          709,
+          650
+        ],
+        [
+          725,
+          659
+        ]
+      ],
+      "status": "confirmed_passage",
+      "note": "Yellow opening marker; adjacent region lacks a confirmed centre."
+    },
+    {
+      "room": "r06",
+      "direction": "SW",
+      "segment_px": [
+        [
+          622,
+          605
+        ],
+        [
+          686,
+          638
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r07",
+      "direction": "NW",
+      "segment_px": [
+        [
+          493,
+          670
+        ],
+        [
+          555,
+          638
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r07",
+      "direction": "NE",
+      "segment_px": [
+        [
+          555,
+          638
+        ],
+        [
+          622,
+          670
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r07",
+      "direction": "SE",
+      "segment_px": [
+        [
+          622,
+          670
+        ],
+        [
+          555,
+          702
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    },
+    {
+      "room": "r07",
+      "direction": "SW",
+      "segment_px": [
+        [
+          555,
+          702
+        ],
+        [
+          493,
+          670
+        ]
+      ],
+      "status": "confirmed_wall",
+      "note": "Continuous visible wall."
+    }
+  ],
+  "dead_ends": [
+    "r01",
+    "r05"
+  ],
+  "uncertain_geometry": true,
+  "uncertainty_notes": [
+    "No unambiguous arrival-room identifier or entrance orientation is visible.",
+    "The large upper outline r02 contains a partial internal wall and scene effects near the player marker. Its centre is an approximate centroid of the visible outer outline; no separate centre is assigned to the partly partitioned region.",
+    "Yellow markers on wall segments are treated as visible passage markers; only shared openings between two annotated room outlines are included as connections.",
+    "Lower-left wall ends near (413,758) and (493,736), and lower-central wall ends near (790,696) and (830,694), do not establish closed rooms or terminal passages.",
+    "The right-hand wall network contains incomplete outlines, open wall ends, an interior spur near (1198,702), and a purple marker near (1403,727) whose function cannot be determined from the frame. No room centres or links are assigned to those incomplete regions.",
+    "Only r01 and r05 have fully visible closed outlines with a single marked departure; dead-end status is limited to those room outlines. No open or incomplete passage is classified as a dead end.",
+    "Room IDs are local to this observation; no earlier annotation was supplied for correspondence. Coordinates refer to the original 1920 by 1080 frame."
+  ],
+  "elapsed_minutes": 1.05
+}
